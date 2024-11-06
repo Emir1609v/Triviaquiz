@@ -1,0 +1,51 @@
+body {
+  background: rgb(63, 231, 63);
+  }
+  
+  #quiz { 
+    width: 200px;
+    height: 200px;
+    margin-left: 680px;
+    margin-top: 290px;
+    display: flex;
+    font-size: 2em;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+  }
+  
+  #startbutton { 
+  
+    margin-left: 720px;
+    margin-top: 300px;
+    border-width: 0px;
+    background:none;
+  }
+  
+  .answerbutton {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 0, 0.637);
+    display: flex;
+    font-size: 25px;
+    border-color: rgb(0, 0, 0);
+    padding: 5px;
+    align-items: center;
+  }
+  
+  .answerbuttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  /* Creates 2 equal columns */
+    gap: 10px;                       /* Adds space between buttons */
+    max-width: 300px;                /* Optional: limits grid width */
+    margin: 0 auto;                  /* Centers the grid */
+  }
+  
+  #question { 
+    width: 700px;
+    margin-left: -200px;
+  }
+  
+  
+  
